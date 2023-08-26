@@ -23,8 +23,8 @@ st.sidebar.title('Instrucciones')
 st.sidebar.write('1. Ingrese su clave de OpenAI. Si no tiene una, obténgala en https://platform.openai.com/account/api-keys')
 st.sidebar.write('2. Pida a sus alumnos que escriban un ensayo en un Google Forms.')
 st.sidebar.write('3. Convierta el formulario en una hoja de cálculo con al menos dos columnas: Autor y Ensayo.')
-st.sidebar.write('3. Cargue la hoja de cálculo a la aplicación de Streamlit.')
-st.sidebar.write('4. Haga clic en Evaluar y espere los resultados.')
+st.sidebar.write('4. Cargue la hoja de cálculo a la aplicación de Streamlit.')
+st.sidebar.write('5. Haga clic en Evaluar y espere los resultados.')
 
 # Pedimos al usuario que suba el archivo Excel
 archivo = st.file_uploader('Cargar archivo Excel', type=['xlsx'])
